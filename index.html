@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>育つ木🌱</title>
+</head>
+<body>
+      <style>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: #e0f7fa;
+  padding: 50px;
+}
+
+.container {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+
+#tree {
+  font-size: 100px;
+  margin: 30px 0;
+  transition: transform 0.3s;
+}
+
+#grow-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #81c784;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#grow-btn:hover {
+  background-color: #66bb6a;
+}
+
+#reset-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #9e827d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#reset-btn:hover {
+  background-color: #8A584E;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #444;
+}
+  </style>
+    <div class="container">
+      <h1>🌱 木を育てよう！</h1>
+      <div id="tree">🌱</div>
+      <button id="grow-btn">育てる</button>
+      <button id="reset-btn" style="display: none;">再スタート</button>
+      <p id="message"></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
